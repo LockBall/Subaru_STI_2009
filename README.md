@@ -22,32 +22,19 @@ OEM Mfr key:
 ### Engine Oil (5W-30)
 
 
-| Type | Brand | Product / Part # | OEM Mfr  | Vendor | Price (USD) | Status | Notes |
+| Type | Brand | Product / Part # | OEM Mfr  | Vendor | Price (USD) | | Notes |
 |---|---|---|---|---|---:|---|---|
 | Generic | Valvoline | Restore & Protect Full Synthetic 5W-30 (5 qt) | Valvoline | Amazon | 36.00 |  |  |
-| OEM | Subaru | [5W-30 Synthetic](https://parts.subaru.com/) |  |  |  | Research |  |
+| OEM | Subaru | [5W-30 Synthetic](https://parts.subaru.com/) |
 
-Supersession notes:
-- none yet
 
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
 ### Oil Filter
+| Type | Brand | Product / Part # | OEM Mfr  | Vendor | Price (USD) | | Notes |
+|---|---|---|---|---|---|---|---|
 
 
-
-| Type | Brand | Product / Part # | OEM Mfr  | Vendor | Price (USD) | Status | Notes |
-|---|---|---|---|---|---:|---|---|
-| OEM Primary | Subaru | [15208AA100](https://parts.subaru.com/p/Subaru_2009_STI/Oil-Filter-Complete/49227636/15208AA100.html) | Tokyo Roki |  |  | Verified |  |
-| Aftermarket Compare | WIX |  | WIX |  |  | Research |  |
-
-Supersession notes:
-- 15208AA023, 15208AA021, 15208AA022, 15208AA020, 15208AA024, SOA6351520812, 15208AA09A, 15208AA080, 15208AA060, 15208AA12A.
-
-Reference:
-- Why bypass pressure matters: [Appendix A: Oil Filter Bypass Pressure](#appendix-a-oil-filter-bypass-pressure)
-
-■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
 ### Oil Drain Plug Crush Washer Gasket
 
@@ -65,8 +52,8 @@ Supersession notes:
 
 | Type | Brand | Product / Part # | OEM Mfr  | Vendor | Price (USD) | Status | Notes |
 |---|---|---|---|---|---:|---|---|
-| OEM Primary | Subaru | [16546AA12A](https://parts.subaru.com/p/Subaru_2009_STI/Air-Filter-Element-Air-Cleaner/49228137/16546AA12A.html) | Unknown |  |  | Verified | Current confirmed OEM primary |
-| Aftermarket Compare | WIX | 49012 | WIX |  |  | Research | Compare media area and seal quality vs OEM |
+| OEM Primary | Subaru | [16546AA12A](https://parts.subaru.com/p/Subaru_2009_STI/Air-Filter-Element-Air-Cleaner/49228137/16546AA12A.html) | Unknown |  |  | Verified | Current confirmed OEM primary; appears to use a felt/fleece-style perimeter seal |
+| Aftermarket Compare | WIX | 49012 | WIX |  |  | Research | Compare media area and perimeter gasket/seal construction vs OEM felt/fleece-style edge |
 
 Supersession notes:
 - 16546AA120
@@ -127,7 +114,6 @@ Supersession notes:
 
 | Date | Original # | Updated / Current # | Why updated | Source |
 |---|---|---|---|---|
-| 2026-07-15 | 15208AA12A | 15208AA100 | 2009 STI catalog fit result points to 15208AA100; 15208AA12A shown in prior chains | https://parts.subaru.com/p/Subaru_2009_STI/Oil-Filter-Complete/49227636/15208AA100.html |
 | 2026-07-15 | 16546AA120 | 16546AA12A | OEM supersession shown on part page | https://parts.subaru.com/p/Subaru__/Air-Filter-Element-Air-Cleaner-Engine-Filters-Fluids-Maintenance-Cooling/49228137/16546AA12A.html |
 
 ---
@@ -136,23 +122,7 @@ Supersession notes:
 
 - 2009 STI catalog home: https://parts.subaru.com/Subaru_2009_STI.html
 - 2009 STI search results (oil filter): https://parts.subaru.com/productSearch.aspx?ukey_make=5806&ukey_model=91367&ukey_driveline=0&ukey_trimlevel=0&modelYear=2009&searchTerm=Oil%20Filter
+- Consolidated oil filter research: OIL_FILTER_RESEARCH.md
 - Subaru recalls and support: http://www.subaru.com/vehicle-recalls.html
-
----
-
-## Appendix A) Oil Filter Bypass Pressure
-
-Oil filter bypass pressure is the pressure difference across the filter media at which the filter bypass valve opens.
-
-It is not the same as engine oil pressure. It is differential pressure between the filter inlet and outlet.
-
-Why this matters for the 2009 STI EJ257:
-- Cold starts increase oil viscosity, which raises restriction through the filter media. A correctly calibrated bypass helps maintain rapid oil flow to bearings and turbo while oil is thick.
-- Turbocharged, high-load operation increases oil flow demand. Filter behavior under high demand affects how often oil is filtered versus bypassed.
-- If bypass pressure is too low, the valve can open too easily and allow more unfiltered oil circulation.
-- If bypass pressure is too high, restriction can remain elevated too long during cold or high-demand conditions before bypass opens.
-
-Practical takeaway:
-- Use OEM or a proven equivalent that explicitly matches OEM bypass behavior for EJ257 application.
-- Do not rely on thread/gasket fit alone when selecting an aftermarket filter.
+- Broad OEM vs alternative research tracker: OEM_PARTS_COMPARISON_RESEARCH.md
 
